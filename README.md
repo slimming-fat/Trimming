@@ -1,4 +1,4 @@
-# Slimming-2.0 <img src="https://github.com/slimming-fat/Slimming-2.0/tree/main/logo/logo.png" align="left" height="135px" alt="Slimming-2.0 logo"/>
+# Slimming-2.0 <img src="https://github.com/slimming-fat/Slimming-2.0/tree/main/logo/Slimming logo.png" align="left" height="135px" alt="Slimming-2.0 logo"/>logo/Slimming logo.png
 
 ## What is Slimming-2.0?
 
