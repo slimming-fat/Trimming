@@ -28,10 +28,6 @@ mvn neu.lab:slimming-2.0:1.0:debloat
 
 |       Name       |   Type    | Description                                                  |
 | :--------------: | :-------: | :----------------------------------------------------------- |
-|     `Repair`     | `boolean` | If this is true, Slimming creates a debloated version of the pom without unused dependencies called pom-result.xml.**Default value is**: `true` |
-| `TreeCallGraph`  | `boolean` | If this is true, Slimming can obtain a dependency call graph.**Default value is**: `true` |
-| `ClassCallGraph` | `boolean` | If this is true, Slimming can obtain a class call graph.**Default value is**: `false` |
-|    `reflect`     | `boolean` | If this is true, Slimming performs class-level reflection analysis.**Default value is**: `true` |
-|     `outDir`     | `String`  | Customize the storage path for storing the analysis results of bloated dependencies |
+|     `entryPointStrategy`     | `String` | Slimming-2.0 offers four entry method strategies for debloating: `Main`, `ProjectCoreMethod`, `Test`, and `ProjectCoreMethodAndTest`.**Default value is**: `ProjectCoreMethodAndTest` |
 
 ## Step 4: Obtain the results
