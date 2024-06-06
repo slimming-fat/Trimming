@@ -31,6 +31,11 @@ mvn neu.lab:slimming-2.0:1.0:debloat
 
 ## Step 4: Obtain the results
 project
-|
-|---src
-|---.debloat
+├── src
+│   ├── grandchild1
+│   └── grandchild2
+└── .debloat
+    ├── *-with-dependencies-original.jar
+    ├── *-with-dependencies-debloated.jar
+    └─ runResult.log
+
