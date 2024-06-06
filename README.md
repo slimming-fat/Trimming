@@ -37,13 +37,4 @@ project
 └── .debloat
     ├── *-with-dependencies-original.jar
     ├── *-with-dependencies-debloated.jar
-    └─ runResult.log
-
-root
-├── child1
-│   ├── grandchild1
-│   └── grandchild2
-└── child2
-    └── grandchild3
-
-
+    └── runResult.log
