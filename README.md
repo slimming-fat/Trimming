@@ -1,5 +1,4 @@
-# Slimming-2.0 <img src="https://github.com/slimming-fat/Slimming-2.0/tree/main/logo/Slimming_logo.png" align="left" height="135px" alt="Slimming-2.0 logo"/>
-
+# Slimming-2.0 ![Slimming-2.0 logo](https://github.com/slimming-fat/Slimming-2.0/tree/main/logo/Slimming_logo.png)
 ## What is Slimming-2.0?
 
 Slimming-2.0 automatically cleans the bloated methods and classes of Java bytecode.
