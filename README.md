@@ -50,5 +50,6 @@ bloatedMethodsSize:18960
 testsRun:Tests run: 27, Failures: 0, Errors: 0, Skipped: 0  // After running test cases on the debloated project
 ```
 ## 3. A demo of Slimming-2.0
+![A demp of Slimming-2.0](logo/demo.gif)
 
 
