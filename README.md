@@ -30,3 +30,7 @@ mvn neu.lab:slimming-2.0:1.0:debloat
 |     `entryPointStrategy`     | `String` | Slimming-2.0 offers four entry method strategies for debloating: `Main`, `ProjectCoreMethod`, `Test`, and `ProjectCoreMethodAndTest`. **Default value is**: `ProjectCoreMethodAndTest` |
 
 ## Step 4: Obtain the results
+project
+|
+|---src
+|---.debloat
