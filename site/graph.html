@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<img id="d-help" style="cursor:pointer; float: right; width: 5%;margin-right: 2%;margin-top: 1%; position: relative; z-index: 999;display: inline;"
+	 class="d-help-img" alt="help" src="img/help.gif">
+	<div id="d-help-win" class="d-help-win" style="display: none;">
+		<div id="win-title">Help
+			<span id="d-help-colse" class="close_2">
+				×
+			</span>
+		</div>
+		<div id="win-content">
+			<center><strong>
+					<font size="4" color="black">A demo of Slimming-2.0</font>
+				</strong></center>
+			<img id='help-gif' src="img/guide.gif" alt="avatar">
+		</div>
+	</div>
+	<div style="background-color: whitesmoke; opacity: 0.8; height: 100%; color: black; position:relative;">
+		<div id='top-chart-container' class='chart-container' style="height: 50%;">
+			<div id='project' class='chart' style='height: 95%; margin-left: 1%; margin-top: -4%;'></div>
+			<div id='classes' class='chart' style='height: 95%; margin-top: -4%;' ></div>
+			<div id='methods' class='chart' style='height: 95%; margin-top: -4%;'></div>
+		</div>
+		<div id='bottom-chart-container' class='chart-container' style="height: 50%;">
+			<div id='container' class='chart' style='height: 95%; margin-top: -6%;'></div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/help.js"></script>
+	<script type="text/javascript" src="js/echarts.min.js"></script>
+	<script type="text/javascript" src="js/node.js"></script>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<span style="font-family:book antiqua;font-size: 20px; line-height: 2;">
+		<span style="font-family: Wingdings;font-size: 20px"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;单模块项目检测指令<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 20px; color: darkorange;">mvn
+			neu.lab:slimming:1.0:singleModuleCheck</span><br />
+		<span style="font-family: Wingdings;font-size: 20px"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;多模块项目检测指令<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 20px; color: darkorange;">mvn
+			neu.lab:slimming:1.0:multiModuleCheck</span><br />
+		<span style="font-family: Wingdings;font-size: 20px"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;运行参数(可选)<br />
+		<table style="font-size: 20px;  border: 1px solid #FFA500; border-collapse: collapse;text-align: center;">
+			<tr style="font-weight: 700; font-size: 25px;">
+				<th style="width: 15%; border: 1px solid #FFA500;">Name</th>
+				<th style="width: 10%; border: 1px solid #FFA500;">Type</th>
+				<th style="width: 75%; border: 1px solid #FFA500;">Description</th>
+			</tr>
+			<tr>
+				<td style="width: 15%;border: 1px solid #FFA500;">repair</td>
+				<td style="width: 10%;border: 1px solid #FFA500;">boolean</td>
+				<td style="width: 75%;border: 1px solid #FFA500;">If this is true, Slimming creates a debloated version of
+					the pom without unused dependencies called
+					pom-result.xml.Default value is: true</td>
+			</tr>
+			<tr>
+				<td style="width: 15%;border: 1px solid #FFA500;">treeCallGraph</td>
+				<td style="width: 10%;border: 1px solid #FFA500;">boolean</td>
+				<td style="width: 75%;border: 1px solid #FFA500;">If this is true, Slimming can obtain a dependency call
+					graph.Default value is: true</td>
+			</tr>
+			<tr>
+				<td style="width: 15%;border: 1px solid #FFA500;">reflect</td>
+				<td style="width: 10%;border: 1px solid #FFA500;">boolean</td>
+				<td style="width: 75%;border: 1px solid #FFA500;">If this is true, Slimming performs class-level
+					reflection analysis.Default value is: true</td>
+			</tr>
+			<tr>
+				<td style="width: 15%;border: 1px solid #FFA500;">outDir</td>
+				<td style="width: 10%;border: 1px solid #FFA500;">String</td>
+				<td style="width: 75%;border: 1px solid #FFA500;">Customize the storage path for storing the analysis
+					results of bloated dependencies</td>
+			</tr>
+		</table>
+	</span>
+</html>

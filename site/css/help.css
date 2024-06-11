@@ -1,0 +1,56 @@
+#d-help-win {
+  background-color: #FFFFFF;
+  opacity: 0.96;
+  display: none;
+  width: 1200px;
+  height: 700px;
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  z-index: 999;
+  border-radius: 16px;
+  border: solid;
+  border-width: thin;
+  border-color: #083C3A;
+}
+#d-help-win #win-title {
+  width: 100%;
+  height: 40px;
+  background: #000100;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+#d-help-win #win-title .close_2 {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  line-height: 25px;
+  font-size: 30px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  color: #999;
+  cursor: pointer;
+}
+#d-help-win #win-content {
+  margin-top: 10px;
+  overflow-y: scroll;
+  height: 600px;
+  width: 100%;
+}
+
+#help-gif {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 1180px;
+  height: auto;
+  margin: auto;
+  border-color: #000000;
+  border-width: medium;
+  border: double;
+}
