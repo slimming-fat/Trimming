@@ -38,6 +38,8 @@ project
 └── .debloat                                 // result of Slimming-2.0
     ├── *-with-dependencies-original.jar     // project original JAR
     ├── *-with-dependencies-debloated.jar    // project debloated JAR
+    ├── debloatedResults.html                // Visualization results
+    ├── echarts.min.js                       // Visualization library
     └── runResult.log                        
 ```
 **runResult.log**
@@ -50,6 +52,6 @@ bloatedMethodsSize:18960
 testsRun:Tests run: 27, Failures: 0, Errors: 0, Skipped: 0  // After running test cases on the debloated project
 ```
 ## 3. A demo of Slimming-2.0
-![A demp of Slimming-2.0](logo/demo.gif)
+![A demp of Slimming-2.0](logo/guide.gif)
 
 
