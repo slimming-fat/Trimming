@@ -35,7 +35,7 @@ project
 ├── src
 │   ├── test
 │   └── main
-└── .debloat                                 // result of Slimming-2.0
+└── .debloat                                 // result of Trimming
     ├── *-with-dependencies-original.jar     // project original JAR
     ├── *-with-dependencies-debloated.jar    // project debloated JAR
     ├── debloatedResults.html                // Visualization results
